@@ -271,6 +271,24 @@ header h2 {
     min-height: 600px;
 }
 
+header h1 {
+    justify-content: center;
+    width: 100%;
+}
+
+#skills .content-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+#skills .skill-list {
+    width: 60%;
+    margin: 20px auto;
+}
+
+#skills p {
+    text-align: center;
+}
 
 }
 
