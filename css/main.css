@@ -218,6 +218,8 @@ header h2 {
 
 .extra-hero {
     background: #F9EFEF;
+    display: flex;
+    justify-content: center;
 }
 
 /***** PROJECTS PAGE PROJECTS STYLES ******/
@@ -229,18 +231,22 @@ header h2 {
 
 #projects .content-wrapper {
     padding: 115px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
 }
 
 #projects .project-piece {
-    float: left;
-    width: 300px;
-    padding: 0 50px;
+    width: 25%;
+    padding: 0 25px;
 }
 
 #projects h2 {
     font-family: 'lora', serif;
     font-size: 1.8rem;
     padding-bottom: 40px;
+    width: 100%;
 }
 
 #projects img {
