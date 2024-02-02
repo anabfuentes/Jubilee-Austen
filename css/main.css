@@ -290,6 +290,38 @@ header h1 {
     text-align: center;
 }
 
+#contact {
+    display: flex;
+    justify-content: center;
+}
+
+#contact .content-wrapper {
+    max-width: 640px;
+    display: inherit;
+    flex-flow: inherit;
+    width: 85%;
+}
+
+#contact .contact-info {
+    padding-left: 50px;
+    width: fit-content;
+}
+
+#contact h2 {
+    font-size: 1.75rem;
+    width: 85%;
+}
+
+#contact #email-header {
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+#contact #socialmedia-header {
+    margin: 20px 0 15px 0;
+    font-size: 1.4rem;
+}
+
 }
 
 /************************* Mobile Styles ********************************/
