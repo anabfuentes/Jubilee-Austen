@@ -265,7 +265,7 @@ header h2 {
 
 /************************** Tablet Styles *******************************/
 
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
+@media only screen and (max-width: 1199px) {
 
 .homepage-hero {
     min-height: 600px;
@@ -296,20 +296,21 @@ header h1 {
 }
 
 #contact .content-wrapper {
-    max-width: 640px;
-    display: inherit;
-    flex-flow: inherit;
-    width: 85%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
 }
 
 #contact .contact-info {
-    padding-left: 50px;
-    width: fit-content;
+    padding-left: 0;
+    width: 80%;
 }
 
 #contact h2 {
     font-size: 1.75rem;
-    width: 85%;
+    width: 100%;
 }
 
 #contact #email-header {
@@ -322,17 +323,48 @@ header h1 {
     font-size: 1.4rem;
 }
 
+#contact ul {
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+#contact ul img {
+    padding-right: 20px;
+}
+
+/*projects page*/
+
+#projects .project-piece {
+    width: 35%;
+    padding: 0 50px;
+    margin-top: 25px;
+}
+
+#projects img {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
 }
 
 /************************* Mobile Styles ********************************/
 
 @media only screen and (max-width: 767px) {
 
+.heading-text {
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content: space-around;
+}
+
 header h1 {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
 .homepage-hero {
@@ -343,14 +375,78 @@ header nav {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    width: 100%;
-    padding: 40px 0 40px 0;
+    align-content: space-around;
+    width: 30%;
 }
 
 header nav ul {
     padding: 0;
+    text-align: center;
 
 }
 
+nav ul li a {
+    font-size: .75rem;
+    padding-left: 25px;
+    padding-right: 25px;
+}
 
+header h2 {
+    font-size: 3.2rem;
+    padding: 35px 0 100px 25;
+}
+
+#about h2 {
+    font-size: 1.5rem;
+}
+
+
+#about p {
+    width: 75%;
+}
+
+#skills h2 {
+    font-size: 1.5rem;
+    padding-bottom: 0;
+}
+
+#skills .skill-list {
+    width: 90%;
+    margin: 10px auto;
+}
+
+#skills .content-wrapper {
+    padding: 90px 0;
+}
+
+#contact #footer-image {
+    width: 100%;
+    margin: 0 25px;
+    height: auto;
+}
+
+#contact .contact-image {
+    width: 100%;
+    display: flex;
+}
+
+#contact .contact-wrapper {
+    padding: 90px 0;
+}
+
+#contact .contact-info a {
+    font-size: 1rem;
+}
+
+#contact #socialmedia-header {
+    font-size: 1.25rem;
+}
+
+#contact #email-header {
+    font-size: 1.25rem;
+}
+
+#contact h2 {
+    font-size: 1.5rem;
+}
 }
