@@ -212,9 +212,9 @@ header h2 {
     padding-right: 40px;
 }
 
-/****** PROJECTS PAGE STYLES *******/
+/****** Project Page Styles *******/
 
-/****** PROJECTS PAGE HEADER STYLES ******/
+/*Project Page - Header Styles*/
 
 .extra-hero {
     background: #F9EFEF;
@@ -222,7 +222,7 @@ header h2 {
     justify-content: center;
 }
 
-/***** PROJECTS PAGE PROJECTS STYLES ******/
+/*Projects Page - Projects Styles*/
 
 #projects {
     background: #F5F5F5;
@@ -263,9 +263,11 @@ header h2 {
     text-align: left;
 }
 
-/************************** Tablet Styles *******************************/
+/********* Tablet Styles *********/
 
 @media only screen and (max-width: 1199px) {
+
+/*Header Styles*/
 
 .homepage-hero {
     min-height: 600px;
@@ -275,6 +277,8 @@ header h1 {
     justify-content: center;
     width: 100%;
 }
+
+/*Skill Styles*/
 
 #skills .content-wrapper {
     display: flex;
@@ -289,6 +293,8 @@ header h1 {
 #skills p {
     text-align: center;
 }
+
+/*Contact Styles*/
 
 #contact {
     display: flex;
@@ -335,7 +341,7 @@ header h1 {
     padding-right: 20px;
 }
 
-/*projects page*/
+/*Projects Page Styles*/
 
 #projects .project-piece {
     width: 35%;
@@ -350,9 +356,11 @@ header h1 {
 
 }
 
-/************************* Mobile Styles ********************************/
+/********* Mobile Styles **********/
 
 @media only screen and (max-width: 767px) {
+
+/*Header Styles*/
 
 .heading-text {
     margin-top: 0;
@@ -396,6 +404,8 @@ header h2 {
     padding: 35px 0 100px 25;
 }
 
+/*About Styles*/
+
 #about h2 {
     font-size: 1.5rem;
 }
@@ -404,6 +414,8 @@ header h2 {
 #about p {
     width: 75%;
 }
+
+/*Skill Styles*/
 
 #skills h2 {
     font-size: 1.5rem;
@@ -418,6 +430,8 @@ header h2 {
 #skills .content-wrapper {
     padding: 90px 0;
 }
+
+/*Contact Styles*/
 
 #contact #footer-image {
     width: 100%;
@@ -449,4 +463,11 @@ header h2 {
 #contact h2 {
     font-size: 1.5rem;
 }
+
+/* Projects Page Styles*/
+
+#projects .project-piece {
+    width: 70%;
+}
+
 }
