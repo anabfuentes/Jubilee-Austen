@@ -90,6 +90,8 @@ header h2 {
     width: 40%;
     padding-left: 25px;
     padding-right: 25px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /****** Skill Styles ******/
