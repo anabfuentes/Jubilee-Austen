@@ -138,13 +138,15 @@ header h2 {
 
 #contact {
     background: #F9E9E9;
+    width:100%;
 
 }
 #contact .content-wrapper {
     padding: 110px 0;
-    width: 100%;
+    width: 90%;
     display: flex;
-    flex-flow: row wrap;
+    justify-content: center;
+    margin: auto;
 }
 
 #contact .contact-image {
