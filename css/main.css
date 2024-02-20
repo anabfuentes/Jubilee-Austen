@@ -111,7 +111,7 @@ header h2 {
 
 #skills .skill-list {
     width: 30%;
-    padding: 30px inherit;
+    padding: 30px auto;
 }
 
 #skills h2 {
@@ -405,7 +405,7 @@ nav ul li a {
 
 header h2 {
     font-size: 3.2rem;
-    padding: 35px 0 100px 25;
+    padding: 35px 0 100px 25px;
 }
 
 /*About Styles*/
