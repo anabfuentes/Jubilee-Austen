@@ -90,8 +90,6 @@ header h2 {
     width: 40%;
     padding-left: 25px;
     padding-right: 25px;
-    display: flex;
-    justify-content: space-evenly;
 }
 
 /****** Skill Styles ******/
@@ -269,7 +267,7 @@ header h2 {
 
 /********* Tablet Styles *********/
 
-@media only screen and (max-width: 1199px) {
+@media only screen and (min-width: 768px) {
 
 /*Header Styles*/
 
@@ -362,7 +360,7 @@ header h1 {
 
 /********* Mobile Styles **********/
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
 
 /*Header Styles*/
 
@@ -409,14 +407,24 @@ header h2 {
 }
 
 /*About Styles*/
+#about .content-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-flow: nowrap;
+}
 
 #about h2 {
     font-size: 1.5rem;
+    width: 80%;
+    text-align:left;
+    display: flex;
+    justify-content: flex-start;
 }
 
-
 #about p {
-    width: 75%;
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 /*Skill Styles*/
