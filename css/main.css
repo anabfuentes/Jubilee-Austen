@@ -10,6 +10,7 @@ body {
 .content-wrapper {
   width: 85%;
   margin: auto 0;
+  overflow: hidden;
 }
 
 /****** Header Styles ******/
@@ -108,7 +109,7 @@ header h2 {
 
 #skills .skill-list {
   width: 30%;
-  padding: 30px auto;
+  padding: 30px;
 }
 
 #skills h2 {
@@ -135,32 +136,27 @@ header h2 {
 
 #contact {
   background: #f9e9e9;
-  width: 100%;
-}
-#contact .content-wrapper {
-  padding: 110px 0;
-  width: 90%;
-  display: flex;
-  justify-content: center;
-  margin: auto;
 }
 
-#contact .contact-image {
-  float: left;
-  width: 600px;
+#contact .content-wrapper {
+  padding: 110px 0;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 #contact #footer-image {
-  width: 500px;
-  height: 300px;
+  width: 60%;
   border: 12px solid white;
-  margin: 0 50px;
-  box-sizing: border-box;
+  margin: 0;
+}
+
+#contact .contact-image {
+  width: inherit;
 }
 
 #contact .contact-info {
-  width: 40%;
-  padding-left: 100px;
+  width:40%
 }
 
 #contact h2 {
@@ -198,7 +194,6 @@ header h2 {
 
 #contact ul {
   padding-left: 0px;
-  float: left;
   margin-top: 0;
 }
 
@@ -300,20 +295,33 @@ header h2 {
 
   #contact .content-wrapper {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
     text-align: center;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #contact .contact-image {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  #contact #footer-image {
     width: 100%;
   }
 
   #contact .contact-info {
     padding-left: 0;
-    width: 80%;
+    margin-top: 40px;
+    width: 100%;
   }
 
   #contact h2 {
     font-size: 1.75rem;
     width: 100%;
+    text-align: center;
   }
 
   #contact #email-header {
@@ -341,7 +349,7 @@ header h2 {
   /*Projects Page Styles*/
 
   #projects .project-piece {
-    width: 35%;
+    width: 90%;
     padding: 0 50px;
     margin-top: 25px;
   }
@@ -438,27 +446,12 @@ header h2 {
   /*Contact Styles*/
 
   #contact .content-wrapper {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    text-align: center;
     width: 100%;
   }
 
   #contact .contact-info {
-    width: 95%;
+    width: 100%;
     padding-left: 0;
-  }
-
-  #contact #footer-image {
-    width: 100%;
-    margin: 0 25px;
-    height: auto;
-  }
-
-  #contact .contact-image {
-    width: 100%;
-    display: flex;
   }
 
   #contact .contact-wrapper {
